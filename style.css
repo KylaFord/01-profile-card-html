@@ -1,0 +1,108 @@
+body {
+	background-color: #f8d7da;
+}
+
+main {
+	background-color: #fff7f8;
+	border: 2px solid #8b6f47;
+	font-family: Georgia, "Times New Roman", serif;
+	margin: 3rem auto;
+	max-width: 600px;
+	padding: 2rem;
+}
+
+
+.image-frame {
+	position: relative;
+	width: 200px;
+	margin: 0 auto 1rem;
+	padding: 1.5rem;
+}
+
+img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 200px;
+}
+
+.heart-row,
+.heart-side {
+	color: #8b6f47;
+	position: absolute;
+}
+
+.heart-row {
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+.heart-row-bottom {
+	bottom: 0;
+	top: auto;
+}
+
+.heart-side {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.heart-side-left {
+	left: 0;
+}
+
+.heart-side-right {
+	right: 0;
+}
+
+h1 {
+	color: #add8e6;
+	font-size: 2.5rem;
+	text-align: center;
+	white-space: nowrap;
+}
+
+h2 {
+	color: #8b6f47;
+	text-align: center;
+}
+
+h3 {
+	color: #8b6f47;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+p:first-of-type {
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+
+ul {
+	list-style-type: "♥ ";
+	list-style-position: inside;
+	padding-left: 0;
+	text-align: center;
+}
+
+li::marker {
+	color: #8b6f47;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+li:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	color: #8b6f47;
+}
